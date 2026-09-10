@@ -1,14 +1,21 @@
 #include <stdio.h>
 int main(){
-    int c, pred_c=getchar();
-    char letters[50]={0};//создаем массив для букв в слове
-    int ind=0, counter1=0, counter2=0;//индексация для массива, подсчет букв в слова, подсчет строк для ввывода гистограм
-
-    //while((c=getchar())!=EOF){
-        //if(c!=pred_c){
-            //letters[ind]=c;
-        //}
-    //}
-    
-    return 0;
+	int c;
+	char letters[256];//создание массива для подсчета символов
+	for(int i=0; i<256; i++){
+		letters[i]=0;
+	}
+	while((c=getchar())!=EOF){
+		letters[c]++;//заполняем количсевтом символов
+	}
+	for(int i=0; i<256; i++){
+		if(letters[i]!=0){//если символ хоть раз появлялся
+			printf("%c:", i);
+			for(int j=0; j<letters[i]; j++){
+				printf("_");//печать гистограммы
+			}
+			printf("\n");
+		}
+	}
+	return 0;
 }
