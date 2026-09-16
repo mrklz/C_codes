@@ -10,6 +10,7 @@ int getline(char s[]){
 	s[i]='\0';
 	return i;
 }
+
 int deleted(char s[]) {
 	int i = 0;
 	while (s[i] != '\0') { i++; }
