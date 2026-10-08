@@ -1,19 +1,21 @@
 #include <stdio.h>
-int main(){
+#include <string.h>
+#define MAX_LENGTH 1000
+int main(void) {
     int n;
-    char c;
     scanf("%d", &n);
-    for(int i=0; i<n; i++){
-        int count=0;
-        scanf("%c", &c);
-        char frst_c=c;
-        while(c!='\n'){
-            count+=1;
-            scanf("%c", &c);
+
+    for (int i = 0; i < n; i++) {
+        char word[MAX_LENGTH];
+        scanf("%s", word);
+
+        int length = strlen(word);
+        if (length > 10) {
+            printf("%c%d%c\n", word[0], length - 2, word[length - 1]);
+        } else {
+            printf("%s\n", word);
         }
-        printf("%c%d%c\n", frst_c, count, с);
     }
 
-    
     return 0;
 }
