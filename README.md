@@ -3,20 +3,19 @@
 Репозиторий содержит коллекцию программ на языке C, включающую в себя упражнения из классического учебника Брайана Кернигана и Денниса Ритчи (K&R), а также решения олимпиадных задач с платформ Codeforces и Timus Online Judge.
 ## Структура проекта
 
-```text
-C_codes/
-├── kr_exercises/          # Упражнения из книги Кернигана и Ритчи
-│   ├── ch01/              # Глава 1 (упражнения 1_3.c, 1_10.c и др.)
-│   └── ch02/              # Глава 2 (упражнения 2_1.c, 2_2.c)
-├── codeforces/            # Решения задач с платформы Codeforces
-│   ├── Beautiful_matrix.c
-│   ├── watermelon.c
-│   └── ...
-└── timus/                 # Решения задач с Timus Online Judge
-    ├── ania.c
-    ├── back_sqrt.c        # Задача №1001. Обратный корень
-    └── bandit2.c
-```
+C_codes/<br>
+├── kr_exercises/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Упражнения из книги Кернигана и Ритчи<br>
+│ &nbsp;&nbsp;├── ch01/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Глава 1 (упражнения 1_3.c, 1_10.c и др.)<br>
+│ &nbsp;&nbsp;└── ch02/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Глава 2 (упражнения 2_1.c, 2_2.c)<br>
+├── codeforces/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Решения задач с платформы Codeforces<br>
+│ &nbsp;&nbsp;├── Beautiful_matrix.c<br>
+│ &nbsp;&nbsp;├── watermelon.c<br>
+│ &nbsp;&nbsp;└── ...<br>
+└── timus/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Решения задач с Timus Online Judge<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── ania.c<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── back_sqrt.c &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Задача №1001. Обратный корень<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── bandit2.c
+
 
 
 ## Описание папок
