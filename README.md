@@ -4,17 +4,20 @@
 ## Структура проекта
 
 C_codes/
-├── kr_exercises/          # Упражнения из книги Кернигана и Ритчи
-│   ├── ch01/              # Глава 1 (упражнения 1_3.c, 1_10.c и др.)
-│   └── ch02/              # Глава 2 (упражнения 2_1.c, 2_2.c)
-├── codeforces/            # Решения задач с платформы Codeforces
-│   ├── Beautiful_matrix.c
-│   ├── watermelon.c
-│   └── ...
-└── timus/                 # Решения задач с Timus Online Judge
-    ├── ania.c
-    ├── back_sqrt.c        # Задача №1001. Обратный корень
-    └── bandit2.c
+  +-- kr_exercises/          # Упражнения из книги Кернигана и Ритчи
+  |     +-- ch01/            # Глава 1 (упражнения 1_3.c, 1_10.c и др.)
+  |     +-- ch02/            # Глава 2 (упражнения 2_1.c, 2_2.c)
+  |
+  +-- CodeForces/            # Решения задач с платформы Codeforces
+  |     +-- Beautiful_matrix.c
+  |     +-- watermelon.c
+  |     +-- ...
+  |
+  +-- Timus/                 # Решения задач с Timus Online Judge
+        +-- ania.c
+        +-- back_sqrt.c      # Задача №1001. Обратный корень
+        +-- bandit2.c
+
 
 ## Описание папок
 
