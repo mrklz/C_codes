@@ -7,6 +7,7 @@ C_codes/<br>
 ├── kr_exercises/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Упражнения из книги Кернигана и Ритчи<br>
 │ &nbsp;&nbsp;├── ch01/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Глава 1 (упражнения 1_3.c, 1_10.c и др.)<br>
 │ &nbsp;&nbsp;└── ch02/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Глава 2 (упражнения 2_1.c, 2_2.c)<br>
+| &nbsp;&nbsp;|__ ..
 ├── codeforces/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Решения задач с платформы Codeforces<br>
 │ &nbsp;&nbsp;├── Beautiful_matrix.c<br>
 │ &nbsp;&nbsp;├── watermelon.c<br>
@@ -15,6 +16,7 @@ C_codes/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── ania.c<br>
 &nbsp;&nbsp;&nbsp;&nbsp;├── back_sqrt.c &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Задача №1001. Обратный корень<br>
 &nbsp;&nbsp;&nbsp;&nbsp;└── bandit2.c
+&nbsp;&nbsp;&nbsp;&nbsp;|__ ...
 
 
 
