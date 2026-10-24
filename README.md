@@ -9,7 +9,7 @@ C_codes/
 ├── CodeForces/            # Решения задач с платформы Codeforces
 ├── Timus/                 # Решения задач с Timus Online Judge
 └── kr_exercises/          # Упражнения из книги Кернигана и Ритчи
-|__ 1000_zadach_po_programmirovaniju/ #Решение заданий из сборника
+|__ 1000_zadach_po_programmirovaniju/ # Решение задач из сборника
 </pre>
 
 ## Как запустить
