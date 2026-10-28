@@ -3,7 +3,8 @@
 int main(){
     setlocale(LC_ALL, ".UTF8");
     int c;
-    //позже
-
+    while((c = getchar()) !=EOF){
+        printf("%d \n", getchar()!=EOF);
+    }
     return 0;
 }

@@ -35,6 +35,7 @@ int main() {
 	char line[1000];
 	while((len=getline(line))>0){
 		reverse(line);
+		putchar('\n');
 	}
 	return 0;
 }
